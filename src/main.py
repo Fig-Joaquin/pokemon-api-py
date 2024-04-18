@@ -1,6 +1,9 @@
 import pokemon_api
 import export_pokemon
 import catch_pokemon_api
+import import_colecction
+import read_pokemon
+import app
 def search_option():
     while True:
         pokemon_name = input("Introduce el nombre de un Pokémon: ").lower()
@@ -30,7 +33,12 @@ def main():
                 print("La exportación de los Pokémon fue exitosa.")
             else:
                 print("Error al exportar los Pokémon. Código de estado:", status_code)
-
+        if option == "importar":
+            import_colecction.import_colecction()
+        if option == "mostrar":
+            read_pokemon.read_data()
+        if option == "graficos":
+            app.run(debug=True)
 
 if __name__ == "__main__":
     main()
