@@ -3,8 +3,8 @@ from pymongo import MongoClient
 
 app = Flask(__name__)
 client = MongoClient("mongodb://localhost:27017/")
-db = client["apipokemon"]
-collection = db["apipokemon"]
+db = client["test"]
+collection = db["pokemon"]
 
 @app.route('/pokemon', methods=['GET'])
 def get_all_pokemon():

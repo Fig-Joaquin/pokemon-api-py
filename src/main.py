@@ -38,7 +38,7 @@ def main():
         if option == "mostrar":
             read_pokemon.read_data()
         if option == "graficos":
-            app.run(debug=True)
+            app.app.run(debug=True)
 
 if __name__ == "__main__":
     main()
