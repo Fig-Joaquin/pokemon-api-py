@@ -1,0 +1,436 @@
+[
+    {
+        "pokedex_id": 1,
+        "habilidades": [
+            "overgrow",
+            "chlorophyll"
+        ],
+        "nombre": "bulbasaur",
+        "altura": 7,
+        "peso": 69,
+        "tipos": [
+            "grass",
+            "poison"
+        ],
+        "estadisticas": {
+            "hp": 45,
+            "attack": 49,
+            "defense": 49,
+            "special-attack": 65,
+            "special-defense": 65,
+            "speed": 45
+        }
+    },
+    {
+        "pokedex_id": 2,
+        "habilidades": [
+            "overgrow",
+            "chlorophyll"
+        ],
+        "nombre": "ivysaur",
+        "altura": 10,
+        "peso": 130,
+        "tipos": [
+            "grass",
+            "poison"
+        ],
+        "estadisticas": {
+            "hp": 60,
+            "attack": 62,
+            "defense": 63,
+            "special-attack": 80,
+            "special-defense": 80,
+            "speed": 60
+        }
+    },
+    {
+        "pokedex_id": 3,
+        "habilidades": [
+            "overgrow",
+            "chlorophyll"
+        ],
+        "nombre": "venusaur",
+        "altura": 20,
+        "peso": 1000,
+        "tipos": [
+            "grass",
+            "poison"
+        ],
+        "estadisticas": {
+            "hp": 80,
+            "attack": 82,
+            "defense": 83,
+            "special-attack": 100,
+            "special-defense": 100,
+            "speed": 80
+        }
+    },
+    {
+        "pokedex_id": 4,
+        "habilidades": [
+            "blaze",
+            "solar-power"
+        ],
+        "nombre": "charmander",
+        "altura": 6,
+        "peso": 85,
+        "tipos": [
+            "fire"
+        ],
+        "estadisticas": {
+            "hp": 39,
+            "attack": 52,
+            "defense": 43,
+            "special-attack": 60,
+            "special-defense": 50,
+            "speed": 65
+        }
+    },
+    {
+        "pokedex_id": 5,
+        "habilidades": [
+            "blaze",
+            "solar-power"
+        ],
+        "nombre": "charmeleon",
+        "altura": 11,
+        "peso": 190,
+        "tipos": [
+            "fire"
+        ],
+        "estadisticas": {
+            "hp": 58,
+            "attack": 64,
+            "defense": 58,
+            "special-attack": 80,
+            "special-defense": 65,
+            "speed": 80
+        }
+    },
+    {
+        "pokedex_id": 6,
+        "habilidades": [
+            "blaze",
+            "solar-power"
+        ],
+        "nombre": "charizard",
+        "altura": 17,
+        "peso": 905,
+        "tipos": [
+            "fire",
+            "flying"
+        ],
+        "estadisticas": {
+            "hp": 78,
+            "attack": 84,
+            "defense": 78,
+            "special-attack": 109,
+            "special-defense": 85,
+            "speed": 100
+        }
+    },
+    {
+        "pokedex_id": 7,
+        "habilidades": [
+            "torrent",
+            "rain-dish"
+        ],
+        "nombre": "squirtle",
+        "altura": 5,
+        "peso": 90,
+        "tipos": [
+            "water"
+        ],
+        "estadisticas": {
+            "hp": 44,
+            "attack": 48,
+            "defense": 65,
+            "special-attack": 50,
+            "special-defense": 64,
+            "speed": 43
+        }
+    },
+    {
+        "pokedex_id": 8,
+        "habilidades": [
+            "torrent",
+            "rain-dish"
+        ],
+        "nombre": "wartortle",
+        "altura": 10,
+        "peso": 225,
+        "tipos": [
+            "water"
+        ],
+        "estadisticas": {
+            "hp": 59,
+            "attack": 63,
+            "defense": 80,
+            "special-attack": 65,
+            "special-defense": 80,
+            "speed": 58
+        }
+    },
+    {
+        "pokedex_id": 9,
+        "habilidades": [
+            "torrent",
+            "rain-dish"
+        ],
+        "nombre": "blastoise",
+        "altura": 16,
+        "peso": 855,
+        "tipos": [
+            "water"
+        ],
+        "estadisticas": {
+            "hp": 79,
+            "attack": 83,
+            "defense": 100,
+            "special-attack": 85,
+            "special-defense": 105,
+            "speed": 78
+        }
+    },
+    {
+        "pokedex_id": 10,
+        "habilidades": [
+            "shield-dust",
+            "run-away"
+        ],
+        "nombre": "caterpie",
+        "altura": 3,
+        "peso": 29,
+        "tipos": [
+            "bug"
+        ],
+        "estadisticas": {
+            "hp": 45,
+            "attack": 30,
+            "defense": 35,
+            "special-attack": 20,
+            "special-defense": 20,
+            "speed": 45
+        }
+    },
+    {
+        "pokedex_id": 11,
+        "habilidades": [
+            "shed-skin"
+        ],
+        "nombre": "metapod",
+        "altura": 7,
+        "peso": 99,
+        "tipos": [
+            "bug"
+        ],
+        "estadisticas": {
+            "hp": 50,
+            "attack": 20,
+            "defense": 55,
+            "special-attack": 25,
+            "special-defense": 25,
+            "speed": 30
+        }
+    },
+    {
+        "pokedex_id": 12,
+        "habilidades": [
+            "compound-eyes",
+            "tinted-lens"
+        ],
+        "nombre": "butterfree",
+        "altura": 11,
+        "peso": 320,
+        "tipos": [
+            "bug",
+            "flying"
+        ],
+        "estadisticas": {
+            "hp": 60,
+            "attack": 45,
+            "defense": 50,
+            "special-attack": 90,
+            "special-defense": 80,
+            "speed": 70
+        }
+    },
+    {
+        "pokedex_id": 13,
+        "habilidades": [
+            "shield-dust",
+            "run-away"
+        ],
+        "nombre": "weedle",
+        "altura": 3,
+        "peso": 32,
+        "tipos": [
+            "bug",
+            "poison"
+        ],
+        "estadisticas": {
+            "hp": 40,
+            "attack": 35,
+            "defense": 30,
+            "special-attack": 20,
+            "special-defense": 20,
+            "speed": 50
+        }
+    },
+    {
+        "pokedex_id": 14,
+        "habilidades": [
+            "shed-skin"
+        ],
+        "nombre": "kakuna",
+        "altura": 6,
+        "peso": 100,
+        "tipos": [
+            "bug",
+            "poison"
+        ],
+        "estadisticas": {
+            "hp": 45,
+            "attack": 25,
+            "defense": 50,
+            "special-attack": 25,
+            "special-defense": 25,
+            "speed": 35
+        }
+    },
+    {
+        "pokedex_id": 15,
+        "habilidades": [
+            "swarm",
+            "sniper"
+        ],
+        "nombre": "beedrill",
+        "altura": 10,
+        "peso": 295,
+        "tipos": [
+            "bug",
+            "poison"
+        ],
+        "estadisticas": {
+            "hp": 65,
+            "attack": 90,
+            "defense": 40,
+            "special-attack": 45,
+            "special-defense": 80,
+            "speed": 75
+        }
+    },
+    {
+        "pokedex_id": 16,
+        "habilidades": [
+            "keen-eye",
+            "tangled-feet",
+            "big-pecks"
+        ],
+        "nombre": "pidgey",
+        "altura": 3,
+        "peso": 18,
+        "tipos": [
+            "normal",
+            "flying"
+        ],
+        "estadisticas": {
+            "hp": 40,
+            "attack": 45,
+            "defense": 40,
+            "special-attack": 35,
+            "special-defense": 35,
+            "speed": 56
+        }
+    },
+    {
+        "pokedex_id": 17,
+        "habilidades": [
+            "keen-eye",
+            "tangled-feet",
+            "big-pecks"
+        ],
+        "nombre": "pidgeotto",
+        "altura": 11,
+        "peso": 300,
+        "tipos": [
+            "normal",
+            "flying"
+        ],
+        "estadisticas": {
+            "hp": 63,
+            "attack": 60,
+            "defense": 55,
+            "special-attack": 50,
+            "special-defense": 50,
+            "speed": 71
+        }
+    },
+    {
+        "pokedex_id": 18,
+        "habilidades": [
+            "keen-eye",
+            "tangled-feet",
+            "big-pecks"
+        ],
+        "nombre": "pidgeot",
+        "altura": 15,
+        "peso": 395,
+        "tipos": [
+            "normal",
+            "flying"
+        ],
+        "estadisticas": {
+            "hp": 83,
+            "attack": 80,
+            "defense": 75,
+            "special-attack": 70,
+            "special-defense": 70,
+            "speed": 101
+        }
+    },
+    {
+        "pokedex_id": 19,
+        "habilidades": [
+            "run-away",
+            "guts",
+            "hustle"
+        ],
+        "nombre": "rattata",
+        "altura": 3,
+        "peso": 35,
+        "tipos": [
+            "normal"
+        ],
+        "estadisticas": {
+            "hp": 30,
+            "attack": 56,
+            "defense": 35,
+            "special-attack": 25,
+            "special-defense": 35,
+            "speed": 72
+        }
+    },
+    {
+        "pokedex_id": 20,
+        "habilidades": [
+            "run-away",
+            "guts",
+            "hustle"
+        ],
+        "nombre": "raticate",
+        "altura": 7,
+        "peso": 185,
+        "tipos": [
+            "normal"
+        ],
+        "estadisticas": {
+            "hp": 55,
+            "attack": 81,
+            "defense": 60,
+            "special-attack": 50,
+            "special-defense": 70,
+            "speed": 97
+        }
+    }
+]

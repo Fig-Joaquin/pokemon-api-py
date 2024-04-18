@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Graficos</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="{{ url_for('static', filename='graphics.js') }}"></script>
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+        .background-image {
+            background-image: url("{{ url_for('static', filename='images/bg.jpg') }}");
+            background-size: cover;
+        }
+    </style>
+    
+</head>
+<body class = "background-image ">
+    <h1 style="text-align: center;" >Gráficos de Pokémon</h1>
+    <div class="background-image"></div>
+
+    <div class="chart-container">
+        <div class="chart">
+
+            <p> Los datos son mostrados a partir de la base de datos conectada al LocalHost. Previamente debe ser importada para el funcionamiento.</p>
+        </div>
+    </div>
+    
+    <div class="chart" id="type-chart">    <p>Gráfico de líneas de los tipos de Pokémon en la base de datos</p></div>
+    <div class="chart" id="height-chart"> <p> Altura de los pokemon de los primeros Pokémon de la Pokedex</p></div>
+    <div class="chart" id="pie-chart"> <p> Gráfico circular de los tipos de Pokémon en la base de datos </p></div>
+</body>
+</html>

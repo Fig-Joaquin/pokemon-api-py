@@ -2,7 +2,7 @@ import json
 import os
 
 # Ruta a guardar el archivo. Se guarda en la carpeta src/files
-file_path = os.path.join("src", "files", "pokemonDataBase.json")
+file_path = os.path.join("files", "pokemondb.json")
 
 def export_to_json(pokemon_data):
     # Verificar si el archivo ya existe

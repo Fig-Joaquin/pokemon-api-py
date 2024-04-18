@@ -3,6 +3,8 @@ import json
 from bson import ObjectId
 import os
 
+userCollection = "pokemondb"
+
 def import_colecction():
     # Conectarse a la base de datos
     client = MongoClient("mongodb://localhost:27017/")
@@ -17,10 +19,10 @@ def import_colecction():
         print(collection)
 
     # Solicitar al usuario que ingrese el nombre de la colección
-    userCollection = input("\nPor favor, ingresa un nombre para la colección. ¡El archivo debe estar en la carpeta correspondiente.! \n Si ingresa un nombre que no existe en la base de datos, se creará una nueva colección: \n")
-    if userCollection == "salir":
+    option = input("\n Se creara una colección con el nombre: pokemondb. El pograma trabajará con esa colección.\n  ¿Deseas continuar? si/no para continuar...\n:").lower()
+    if option == "no":
         exit_program = True
-    else:
+    if option == "si":
         exit_program = False
 
     # Si el usuario decide no salir, continuar con el flujo del programa
@@ -29,10 +31,10 @@ def import_colecction():
         collectionChosen = db[userCollection]
 
         # Solicitar al usuario que ingrese el nombre del archivo JSON
-        nombre_archivo = input("Por favor, ingresa el nombre del archivo JSON que insertarás en la colección. Ejemplo: archivo.json\n")
+        nombre_archivo = input("Por favor, ingresa el nombre del archivo JSON que insertarás en la colección. \nEl archivo debe estar dentro de la carpeta files - Ejemplo: archivo.json\n")
         
         # Construir la ruta completa del archivo JSON en la carpeta json-files
-        ruta_archivo = os.path.join("src","files", nombre_archivo)
+        ruta_archivo = os.path.join("files", nombre_archivo)
 
         # Verificar si el archivo existe
         if os.path.exists(ruta_archivo):
@@ -44,7 +46,7 @@ def import_colecction():
             # Imprimir el número de documentos insertados
             print("Se insertaron", len(resultado.inserted_ids), "documentos en la colección '", userCollection, "'.")
         else:
-            print("El archivo JSON especificado no existe en la carpeta 'json-files'.")
+            print("El archivo JSON especificado no existe en la carpeta 'files'.")
         input(INTRO_TIME)
 
 if __name__ == "__main__":

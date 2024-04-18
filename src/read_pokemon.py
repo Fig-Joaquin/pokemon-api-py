@@ -6,7 +6,7 @@ from bson import ObjectId
 # Conectar a la base de datos local de MongoDB
 client = pymongo.MongoClient("mongodb://localhost:27017/")
 db = client["test"]
-collection = db["apipokemon"]
+collection = db["pokemondb"]
 
 def read_data():
     # Obtener todos los documentos de la colección
