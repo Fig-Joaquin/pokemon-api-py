@@ -2,7 +2,7 @@ import requests
 import json
 import os
 
-API_URL = 'https://pokeapi.co/api/v2/pokemon?limit=20'
+API_URL = 'https://pokeapi.co/api/v2/pokemon?limit=50'
 file_path = os.path.join("files", "pokemondb.json")
 
 def get_pokemon_info(pokemon_url):

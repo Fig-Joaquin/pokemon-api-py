@@ -432,5 +432,709 @@
             "special-defense": 70,
             "speed": 97
         }
+    },
+    {
+        "pokedex_id": 21,
+        "habilidades": [
+            "keen-eye",
+            "sniper"
+        ],
+        "nombre": "spearow",
+        "altura": 3,
+        "peso": 20,
+        "tipos": [
+            "normal",
+            "flying"
+        ],
+        "estadisticas": {
+            "hp": 40,
+            "attack": 60,
+            "defense": 30,
+            "special-attack": 31,
+            "special-defense": 31,
+            "speed": 70
+        }
+    },
+    {
+        "pokedex_id": 22,
+        "habilidades": [
+            "keen-eye",
+            "sniper"
+        ],
+        "nombre": "fearow",
+        "altura": 12,
+        "peso": 380,
+        "tipos": [
+            "normal",
+            "flying"
+        ],
+        "estadisticas": {
+            "hp": 65,
+            "attack": 90,
+            "defense": 65,
+            "special-attack": 61,
+            "special-defense": 61,
+            "speed": 100
+        }
+    },
+    {
+        "pokedex_id": 23,
+        "habilidades": [
+            "intimidate",
+            "shed-skin",
+            "unnerve"
+        ],
+        "nombre": "ekans",
+        "altura": 20,
+        "peso": 69,
+        "tipos": [
+            "poison"
+        ],
+        "estadisticas": {
+            "hp": 35,
+            "attack": 60,
+            "defense": 44,
+            "special-attack": 40,
+            "special-defense": 54,
+            "speed": 55
+        }
+    },
+    {
+        "pokedex_id": 24,
+        "habilidades": [
+            "intimidate",
+            "shed-skin",
+            "unnerve"
+        ],
+        "nombre": "arbok",
+        "altura": 35,
+        "peso": 650,
+        "tipos": [
+            "poison"
+        ],
+        "estadisticas": {
+            "hp": 60,
+            "attack": 95,
+            "defense": 69,
+            "special-attack": 65,
+            "special-defense": 79,
+            "speed": 80
+        }
+    },
+    {
+        "pokedex_id": 25,
+        "habilidades": [
+            "static",
+            "lightning-rod"
+        ],
+        "nombre": "pikachu",
+        "altura": 4,
+        "peso": 60,
+        "tipos": [
+            "electric"
+        ],
+        "estadisticas": {
+            "hp": 35,
+            "attack": 55,
+            "defense": 40,
+            "special-attack": 50,
+            "special-defense": 50,
+            "speed": 90
+        }
+    },
+    {
+        "pokedex_id": 26,
+        "habilidades": [
+            "static",
+            "lightning-rod"
+        ],
+        "nombre": "raichu",
+        "altura": 8,
+        "peso": 300,
+        "tipos": [
+            "electric"
+        ],
+        "estadisticas": {
+            "hp": 60,
+            "attack": 90,
+            "defense": 55,
+            "special-attack": 90,
+            "special-defense": 80,
+            "speed": 110
+        }
+    },
+    {
+        "pokedex_id": 27,
+        "habilidades": [
+            "sand-veil",
+            "sand-rush"
+        ],
+        "nombre": "sandshrew",
+        "altura": 6,
+        "peso": 120,
+        "tipos": [
+            "ground"
+        ],
+        "estadisticas": {
+            "hp": 50,
+            "attack": 75,
+            "defense": 85,
+            "special-attack": 20,
+            "special-defense": 30,
+            "speed": 40
+        }
+    },
+    {
+        "pokedex_id": 28,
+        "habilidades": [
+            "sand-veil",
+            "sand-rush"
+        ],
+        "nombre": "sandslash",
+        "altura": 10,
+        "peso": 295,
+        "tipos": [
+            "ground"
+        ],
+        "estadisticas": {
+            "hp": 75,
+            "attack": 100,
+            "defense": 110,
+            "special-attack": 45,
+            "special-defense": 55,
+            "speed": 65
+        }
+    },
+    {
+        "pokedex_id": 29,
+        "habilidades": [
+            "poison-point",
+            "rivalry",
+            "hustle"
+        ],
+        "nombre": "nidoran-f",
+        "altura": 4,
+        "peso": 70,
+        "tipos": [
+            "poison"
+        ],
+        "estadisticas": {
+            "hp": 55,
+            "attack": 47,
+            "defense": 52,
+            "special-attack": 40,
+            "special-defense": 40,
+            "speed": 41
+        }
+    },
+    {
+        "pokedex_id": 30,
+        "habilidades": [
+            "poison-point",
+            "rivalry",
+            "hustle"
+        ],
+        "nombre": "nidorina",
+        "altura": 8,
+        "peso": 200,
+        "tipos": [
+            "poison"
+        ],
+        "estadisticas": {
+            "hp": 70,
+            "attack": 62,
+            "defense": 67,
+            "special-attack": 55,
+            "special-defense": 55,
+            "speed": 56
+        }
+    },
+    {
+        "pokedex_id": 31,
+        "habilidades": [
+            "poison-point",
+            "rivalry",
+            "sheer-force"
+        ],
+        "nombre": "nidoqueen",
+        "altura": 13,
+        "peso": 600,
+        "tipos": [
+            "poison",
+            "ground"
+        ],
+        "estadisticas": {
+            "hp": 90,
+            "attack": 92,
+            "defense": 87,
+            "special-attack": 75,
+            "special-defense": 85,
+            "speed": 76
+        }
+    },
+    {
+        "pokedex_id": 32,
+        "habilidades": [
+            "poison-point",
+            "rivalry",
+            "hustle"
+        ],
+        "nombre": "nidoran-m",
+        "altura": 5,
+        "peso": 90,
+        "tipos": [
+            "poison"
+        ],
+        "estadisticas": {
+            "hp": 46,
+            "attack": 57,
+            "defense": 40,
+            "special-attack": 40,
+            "special-defense": 40,
+            "speed": 50
+        }
+    },
+    {
+        "pokedex_id": 33,
+        "habilidades": [
+            "poison-point",
+            "rivalry",
+            "hustle"
+        ],
+        "nombre": "nidorino",
+        "altura": 9,
+        "peso": 195,
+        "tipos": [
+            "poison"
+        ],
+        "estadisticas": {
+            "hp": 61,
+            "attack": 72,
+            "defense": 57,
+            "special-attack": 55,
+            "special-defense": 55,
+            "speed": 65
+        }
+    },
+    {
+        "pokedex_id": 34,
+        "habilidades": [
+            "poison-point",
+            "rivalry",
+            "sheer-force"
+        ],
+        "nombre": "nidoking",
+        "altura": 14,
+        "peso": 620,
+        "tipos": [
+            "poison",
+            "ground"
+        ],
+        "estadisticas": {
+            "hp": 81,
+            "attack": 102,
+            "defense": 77,
+            "special-attack": 85,
+            "special-defense": 75,
+            "speed": 85
+        }
+    },
+    {
+        "pokedex_id": 35,
+        "habilidades": [
+            "cute-charm",
+            "magic-guard",
+            "friend-guard"
+        ],
+        "nombre": "clefairy",
+        "altura": 6,
+        "peso": 75,
+        "tipos": [
+            "fairy"
+        ],
+        "estadisticas": {
+            "hp": 70,
+            "attack": 45,
+            "defense": 48,
+            "special-attack": 60,
+            "special-defense": 65,
+            "speed": 35
+        }
+    },
+    {
+        "pokedex_id": 36,
+        "habilidades": [
+            "cute-charm",
+            "magic-guard",
+            "unaware"
+        ],
+        "nombre": "clefable",
+        "altura": 13,
+        "peso": 400,
+        "tipos": [
+            "fairy"
+        ],
+        "estadisticas": {
+            "hp": 95,
+            "attack": 70,
+            "defense": 73,
+            "special-attack": 95,
+            "special-defense": 90,
+            "speed": 60
+        }
+    },
+    {
+        "pokedex_id": 37,
+        "habilidades": [
+            "flash-fire",
+            "drought"
+        ],
+        "nombre": "vulpix",
+        "altura": 6,
+        "peso": 99,
+        "tipos": [
+            "fire"
+        ],
+        "estadisticas": {
+            "hp": 38,
+            "attack": 41,
+            "defense": 40,
+            "special-attack": 50,
+            "special-defense": 65,
+            "speed": 65
+        }
+    },
+    {
+        "pokedex_id": 38,
+        "habilidades": [
+            "flash-fire",
+            "drought"
+        ],
+        "nombre": "ninetales",
+        "altura": 11,
+        "peso": 199,
+        "tipos": [
+            "fire"
+        ],
+        "estadisticas": {
+            "hp": 73,
+            "attack": 76,
+            "defense": 75,
+            "special-attack": 81,
+            "special-defense": 100,
+            "speed": 100
+        }
+    },
+    {
+        "pokedex_id": 39,
+        "habilidades": [
+            "cute-charm",
+            "competitive",
+            "friend-guard"
+        ],
+        "nombre": "jigglypuff",
+        "altura": 5,
+        "peso": 55,
+        "tipos": [
+            "normal",
+            "fairy"
+        ],
+        "estadisticas": {
+            "hp": 115,
+            "attack": 45,
+            "defense": 20,
+            "special-attack": 45,
+            "special-defense": 25,
+            "speed": 20
+        }
+    },
+    {
+        "pokedex_id": 40,
+        "habilidades": [
+            "cute-charm",
+            "competitive",
+            "frisk"
+        ],
+        "nombre": "wigglytuff",
+        "altura": 10,
+        "peso": 120,
+        "tipos": [
+            "normal",
+            "fairy"
+        ],
+        "estadisticas": {
+            "hp": 140,
+            "attack": 70,
+            "defense": 45,
+            "special-attack": 85,
+            "special-defense": 50,
+            "speed": 45
+        }
+    },
+    {
+        "pokedex_id": 41,
+        "habilidades": [
+            "inner-focus",
+            "infiltrator"
+        ],
+        "nombre": "zubat",
+        "altura": 8,
+        "peso": 75,
+        "tipos": [
+            "poison",
+            "flying"
+        ],
+        "estadisticas": {
+            "hp": 40,
+            "attack": 45,
+            "defense": 35,
+            "special-attack": 30,
+            "special-defense": 40,
+            "speed": 55
+        }
+    },
+    {
+        "pokedex_id": 42,
+        "habilidades": [
+            "inner-focus",
+            "infiltrator"
+        ],
+        "nombre": "golbat",
+        "altura": 16,
+        "peso": 550,
+        "tipos": [
+            "poison",
+            "flying"
+        ],
+        "estadisticas": {
+            "hp": 75,
+            "attack": 80,
+            "defense": 70,
+            "special-attack": 65,
+            "special-defense": 75,
+            "speed": 90
+        }
+    },
+    {
+        "pokedex_id": 43,
+        "habilidades": [
+            "chlorophyll",
+            "run-away"
+        ],
+        "nombre": "oddish",
+        "altura": 5,
+        "peso": 54,
+        "tipos": [
+            "grass",
+            "poison"
+        ],
+        "estadisticas": {
+            "hp": 45,
+            "attack": 50,
+            "defense": 55,
+            "special-attack": 75,
+            "special-defense": 65,
+            "speed": 30
+        }
+    },
+    {
+        "pokedex_id": 44,
+        "habilidades": [
+            "chlorophyll",
+            "stench"
+        ],
+        "nombre": "gloom",
+        "altura": 8,
+        "peso": 86,
+        "tipos": [
+            "grass",
+            "poison"
+        ],
+        "estadisticas": {
+            "hp": 60,
+            "attack": 65,
+            "defense": 70,
+            "special-attack": 85,
+            "special-defense": 75,
+            "speed": 40
+        }
+    },
+    {
+        "pokedex_id": 45,
+        "habilidades": [
+            "chlorophyll",
+            "effect-spore"
+        ],
+        "nombre": "vileplume",
+        "altura": 12,
+        "peso": 186,
+        "tipos": [
+            "grass",
+            "poison"
+        ],
+        "estadisticas": {
+            "hp": 75,
+            "attack": 80,
+            "defense": 85,
+            "special-attack": 110,
+            "special-defense": 90,
+            "speed": 50
+        }
+    },
+    {
+        "pokedex_id": 46,
+        "habilidades": [
+            "effect-spore",
+            "dry-skin",
+            "damp"
+        ],
+        "nombre": "paras",
+        "altura": 3,
+        "peso": 54,
+        "tipos": [
+            "bug",
+            "grass"
+        ],
+        "estadisticas": {
+            "hp": 35,
+            "attack": 70,
+            "defense": 55,
+            "special-attack": 45,
+            "special-defense": 55,
+            "speed": 25
+        }
+    },
+    {
+        "pokedex_id": 47,
+        "habilidades": [
+            "effect-spore",
+            "dry-skin",
+            "damp"
+        ],
+        "nombre": "parasect",
+        "altura": 10,
+        "peso": 295,
+        "tipos": [
+            "bug",
+            "grass"
+        ],
+        "estadisticas": {
+            "hp": 60,
+            "attack": 95,
+            "defense": 80,
+            "special-attack": 60,
+            "special-defense": 80,
+            "speed": 30
+        }
+    },
+    {
+        "pokedex_id": 48,
+        "habilidades": [
+            "compound-eyes",
+            "tinted-lens",
+            "run-away"
+        ],
+        "nombre": "venonat",
+        "altura": 10,
+        "peso": 300,
+        "tipos": [
+            "bug",
+            "poison"
+        ],
+        "estadisticas": {
+            "hp": 60,
+            "attack": 55,
+            "defense": 50,
+            "special-attack": 40,
+            "special-defense": 55,
+            "speed": 45
+        }
+    },
+    {
+        "pokedex_id": 49,
+        "habilidades": [
+            "shield-dust",
+            "tinted-lens",
+            "wonder-skin"
+        ],
+        "nombre": "venomoth",
+        "altura": 15,
+        "peso": 125,
+        "tipos": [
+            "bug",
+            "poison"
+        ],
+        "estadisticas": {
+            "hp": 70,
+            "attack": 65,
+            "defense": 60,
+            "special-attack": 90,
+            "special-defense": 75,
+            "speed": 90
+        }
+    },
+    {
+        "pokedex_id": 50,
+        "habilidades": [
+            "sand-veil",
+            "arena-trap",
+            "sand-force"
+        ],
+        "nombre": "diglett",
+        "altura": 2,
+        "peso": 8,
+        "tipos": [
+            "ground"
+        ],
+        "estadisticas": {
+            "hp": 10,
+            "attack": 55,
+            "defense": 25,
+            "special-attack": 35,
+            "special-defense": 45,
+            "speed": 95
+        }
+    },
+    {
+        "N\u00famero en la pokedex": 4,
+        "Habilidades": [
+            "blaze",
+            "solar-power"
+        ],
+        "Nombre": "charmander",
+        "Altura": 6,
+        "Peso": 85,
+        "Tipos": [
+            "fire"
+        ],
+        "Estadisticas": {
+            "hp": 39,
+            "attack": 52,
+            "defense": 43,
+            "special-attack": 60,
+            "special-defense": 50,
+            "speed": 65
+        }
+    },
+    {
+        "N\u00famero en la pokedex": 10,
+        "Habilidades": [
+            "shield-dust",
+            "run-away"
+        ],
+        "Nombre": "caterpie",
+        "Altura": 3,
+        "Peso": 29,
+        "Tipos": [
+            "bug"
+        ],
+        "Estadisticas": {
+            "hp": 45,
+            "attack": 30,
+            "defense": 35,
+            "special-attack": 20,
+            "special-defense": 20,
+            "speed": 45
+        }
     }
 ]

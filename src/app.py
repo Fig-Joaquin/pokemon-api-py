@@ -7,7 +7,7 @@ db = client['test']
 collection = db['pokemondb']
 
 # Ruta para la página principal que mostrará los gráficos
-@app.route('/home')
+@app.route('/')
 def index():
     return render_template('index.html')
 
@@ -75,4 +75,4 @@ def get_average_weight_data():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, use_reloader=False)
